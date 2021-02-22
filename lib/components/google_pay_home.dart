@@ -27,7 +27,7 @@ class _GooglePayHomeState extends State<GooglePayHome> {
         color: Colors.blue[700],
         child: Stack(
           children: [
-            HeaderWidget(),
+            HeaderWidget(), //头部信息
             Padding(
               padding: EdgeInsets.symmetric(vertical: 100, horizontal: 110),
               child: Container(
